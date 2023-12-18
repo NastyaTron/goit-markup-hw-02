@@ -121,12 +121,15 @@ a {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 1.11;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 .section-our-team {
   background: #f4f4fd;
+}
+.block {
+  background: #ffffff;
 }
 .footer {
   background: #2e2f42;
@@ -146,4 +149,6 @@ a {
 
 .footer-text {
   color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
